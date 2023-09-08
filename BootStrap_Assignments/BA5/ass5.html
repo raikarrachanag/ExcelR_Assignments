@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="ass5.css">
+    <title>assignment 5</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+                <h3 style="margin-top: 50px; margin-bottom: 30px;">Employee Regestration Form</h3>
+                
+        <form>
+            <div class="whole">
+            <div class="mb-3">
+                <label for="inputname" class="form-label">Full Name :</label>
+                <input type="text" class="form-control" id="inputname" aria-describedby="fullname">
+            </div>
+
+            <div class="mb-3">
+            <label for="inputEmail" class="form-label">Email :</label>
+            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3">
+                <label for="inputPassword" class="form-label">Password :</label>
+                <input type="password" class="form-control" id="inputPassword">
+            </div>
+
+            <div class="mb-3">
+                <label for="inputage" class="form-label">Age :</label>
+                <input type="number" class="form-control" id="inputage" aria-describedby="age">
+            </div>
+
+            <div class="mb-3">
+                <label for="inputdepartment" class="form-label">Department :</label>
+
+                <select name="department" class="form-control" id="inputdepartment" aria-describedby="department">
+                    <option value="">---select department---</option>
+                    <option value="AppDeveloper">App Developer</option>
+                    <option value="SoftwareDeveloper">Software Developer</option>
+                    <option value="webDeveloper">web Developer</option>
+                </select>
+            </div>
+
+        </div>
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-success" type="button">Regester</button>
+              </div>
+      </form>
+    </div>
+    </div>
+</body>
+</html>
